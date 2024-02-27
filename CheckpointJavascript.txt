@@ -1,0 +1,123 @@
+Exercice 1
+Affichage : Bonjour
+
+console.log("Bonjour")
+
+Exercice 2
+Bonjour "un nom"
+
+var name = "Alhassane"
+console.log("Bonjour " + name)
+
+Exercice 3
+La somme de deux nombres
+
+var a = 5
+var b = 8
+var resultat = a + b
+console.log(resultat)
+
+Exercice 4
+La valeur absolue
+
+var a = -9
+
+if(a<0){
+  console.log(a * -1)
+}else{
+  console.log(a)
+}
+
+Exercice 5
+Pair ou impair
+
+var a = 11
+
+if(a % 2 == 0){
+  console.log('Pair')
+}else{
+  console.log('Impair')
+}
+
+Exercice 6
+Échanger le contenu de deux entiers
+
+var a = 4
+var b = 8
+
+var aux = a
+a = b
+b = aux
+
+console.log(a)
+console.log(b)
+
+
+Exercice 7
+La somme d'un tableau
+
+var t = [3,4,7,2]
+
+var somme = 0
+
+for(var i = 0; i<t.length; i++){
+  somme = somme + t[i]
+}
+
+console.log(somme)
+
+Exercice 8
+Le minimum dans un tableau
+
+var t = [3,4,7,2]
+
+var min = t[0]
+
+for(var i = 0; i<t.length; i++){
+  if(t[i]<min){
+    min = t[i]
+  }
+}
+
+console.log(min)
+
+
+Exercice 9
+Le nombre d'occurrences d'un nombre dans un tableau
+
+var t = [3,4,4,5,3,8,7,3]
+var num = 3
+var count = 0
+
+for(var i = 0; i<t.length;i++){
+  if(t[i] == num){
+    count ++
+  }
+}
+
+console.log(count)
+
+
+Exercice 10
+L'existence d'un nombre dans un tableau
+
+var t = [3,4,4,5,3,8,7,3]
+var num = 4
+var exist = false
+
+for(var i = 0; i<t.length;i++){
+  if(t[i] == num){
+    exist = true
+  }
+}
+
+console.log(exist)
+
+
+
+
+
+
+
+
+
